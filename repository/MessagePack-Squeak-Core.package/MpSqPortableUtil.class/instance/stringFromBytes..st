@@ -1,3 +1,3 @@
 actions
 stringFromBytes: aByteArray
-	^aByteArray asString convertFromEncoding: #utf8
+	^aByteArray utf8Decoded
