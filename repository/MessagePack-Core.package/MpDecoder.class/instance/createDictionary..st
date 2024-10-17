@@ -1,3 +1,5 @@
 factory
 createDictionary: size
-	^Dictionary new: size
+	<gtPharoPatch: #StrictComparison>
+
+	^ GtStringContentDictionary new: size
